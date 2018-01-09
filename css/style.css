@@ -10,3 +10,40 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }*/
+
+.header-img {
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 80px;
+  padding-top: 0;
+  background-color: #ffffff;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.projects ul {
+  margin: 0;
+  padding: 0;
+}
+
+.project {
+  list-style: none;
+}
+
+.project__image,
+.summary__image {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project__image {
+  margin-top: 25px;
+}

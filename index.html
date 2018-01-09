@@ -7,23 +7,147 @@
     <link rel="stylesheet" href="css/normalize.css">
   </head>
   <body>
-    <header>
-      <h1 class="visually-hidden">Портфолио</h1>
-      <img src="img/under-construction.png" width="500" height="158">
-    </header>
-    <section class="resume">
-      <h2 class="resume-name">Воробьев <span class="resume-surname">Владимир Александрович</span></h2>
-      
-    </section>
+    <div class="wrapper">
+      <header>
+        <img class="header-img" src="img/under-construction.png" width="500" height="158">
+        <h1 class="visually-hidden">Портфолио</h1>
+      </header>
+      <section class="summary">
+        <img class="summary__image" src="img/portrait.jpg" width="300" height="400" align="Воробьев Владимир">
+        <h2 class="summary__name">Воробьев <span class="summary__surname">Владимир Александрович</span></h2>
+        <div class="summary__contacts">
+          <p class="contact__info"><a class="contact__link" href="tel:+79629805487">+7 962 980 5487</a></p>
+          <p class="contact__info"><a class="contact__link" href="mailto:v.vorobjev@mail.ru">v.vorobjev@mail.ru</a></p>
+          <p class="contact__info"><a href="https://hh.ru/resume/a7704e1bff045143560039ed1f466842304168">Резюме на hh</a></p>
+        </div>
+        <div class="summary__text">
+          <p>Родился 04.07.1981 года. Женат, двое детей.</p>
+          <p>Имею высшее техническое образование по специальности «Автоматизация химических процессов и производств».
+            Одиннадцать лет работаю в полиграфической фирме верстальщиком и технологом. В разное время работал системным
+            администратором, иллюстратором-графиком, делал flash-анимацию.</p>
+          <p>Последние полгода обучался web-разработке, успешно закончил три обучающих интенсива в HTML Академии (по
+            созданию простейших сайтов, адаптивной верстке и азам программирования на ES5). Имею огромное желание сменить
+            профессиональную область и развиваться дальше в области фронтэнда.</p>
+        </div>
+      </section>
 
-    <h2>Порфолио (в разработке)</h2>
+      <section class="projects">
+        <p><b>Проекты, выполненные в ходе обучающих интенсивов в <a href="https://htmlacademy.ru/">HTML Academy</a>:</b></p>
+        <ul>
+          <li class="project">
+            <a href="sedona/index.html">
+              <img class="project__image" src="img/sedona.jpg" width="300" height="225" alt="Седона"><br>
+              Первый проект. <b>Седона</b> (Базовая верстка)
+            </a>
+            <div class="project__info">
+              <p>В ходе работы над этим проектом были получены следующие навыки:</p>
+              <ul>
+                <li>создание семантической разметки страницы с учетом принципов доступности;</li>
+                <li>пострение статичной сетки страницы с использованием технологии flex;</li>
+                <li>работа с графическим макетом в Adobe PhotoShop;</li>
+                <li>оформление декоративных элементов и текстового содержания;</li>
+                <li>оптимизация кода;</li>
+                <li>использование системы контроля версий Git;</li>
+                <li>подготовка завершённого проекта к публикации.</li>
+              </ul>
+              <p class="project__copyright">Дизайн сайта <a href="https://htmlacademy.ru/">htmlacademy</a>.</p>
+            </div>
+            <div class="project__links">
+              <a href="https://github.com/noatatat/428313-sedona">Репозиторий</a>
+              <a href="https://htmlacademy.ru/intensive/htmlcss">Интенсив</a>
+            </div>
+          </li>
+          <li class="project">
+            <a href="pink/index.html">
+              <img class="project__image" src="img/pink.jpg" width="300" height="225" alt="Pink"><br>
+              Второй проект. <b>Pink</b> (Продвинутая верстка)
+            </a>
+            <div class="project__info">
+              <p>В ходе работы над этим проектом были получены следующие навыки:</p>
+              <ul>
+                <li>создание семантической разметки страницы по методологии БЭМ с учетом принципов доступности;</li>
+                <li>стилизация элементов на CSS-коде с использовнием препроцессора LESS;</li>
+                <li>создание адаптивной сетки для трех типов экранов;</li>
+                <li>работа с адаптивной и ретиновой графикой;</li>
+                <li>подготовка автоматизации сборки проекта для публикации с помощью Gulp;</li>
+                <li>использование консоли для работы с GitHub.</li>
+              </ul>
+              <p class="project__copyright">Дизайн и материалы <a href="https://htmlacademy.ru/">htmlacademy</a>.</p>
+            </div>
+            <div class="project__links">
+              <a href="https://github.com/noatatat/428313-pink">Репозиторий</a>
+              <a href="https://htmlacademy.ru/intensive/adaptive">Интенсив</a>
+            </div>
+          </li>
+          <li class="project">
+            <a href="booking/index.html">
+              <img class="project__image" src="img/booking.jpg" width="300" height="225" alt="Кексобукинг"><br>
+              Третий проект. <b>Кексобукинг</b>(Базовый JS)
+            </a>
+            <div class="project__info">
+              <p>В ходе работы над этим проектом были получены следующие навыки:</p>
+              <ul>
+                <li>создание и  управление DOM-элементами;</li>
+                <li>применение обработчиков событий;</li>
+                <li>разделение кода на модули, использование IIFE;</li>
+                <li>получение и отправка данных по сети.</li>
+              </ul>
+              <p class="project__copyright">Дизайн и верстка сайта <a href="https://htmlacademy.ru/">htmlacademy</a>.</p>
+            </div>
+            <div class="project__links">
+              <a href="https://github.com/noatatat/428313-keksobooking">Репозиторий</a>
+              <a href="https://htmlacademy.ru/intensive/javascript">Интенсив</a>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-    <p><b>Проекты, выполненные в ходе обучающих интенсивов в <a href="https://htmlacademy.ru/">HTML Academy</a>:</b></p>
-    <ul>
-      <li><a href="sedona/index.html">Первый проект. <b>Седона</b> (Базовая верстка)</a> <a href="https://github.com/noatatat/428313-sedona">Репозиторий</a> <a href="https://htmlacademy.ru/intensive/htmlcss">Интенсив</a></li>
-      <li><a href="pink/index.html">Второй проект. <b>Pink</b> (Продвинутая верстка)</a> <a href="https://github.com/noatatat/428313-pink">Репозиторий</a> <a href="https://htmlacademy.ru/intensive/adaptive">Интенсив</a></li>
-      <li><a href="booking/index.html">Третий проект. <b>KeksoBooking</b> (Базовый JS)</a> <a href="https://github.com/noatatat/428313-keksobooking">Репозиторий</a> <a href="https://htmlacademy.ru/intensive/javascript">Интенсив</a></li>
-    </ul>
-    <p><a href="https://hh.ru/resume/a7704e1bff045143560039ed1f466842304168">Резюме на hh</a></p>
+      <section class="resume popup">
+        <h2>Резюме</h2>
+        <div class="resume__graduate">
+          <h3 class="resume__item-name">Высшее образование</h3>
+          <p class="resume__date">2003</p>
+          <p class="resume__info"><b>Тамбовский государственный технический университет, Тамбов</b></p>
+          <p class="resume__info">Автоматизация химических процессов и производств, Автоматизация технологических процессов и производств (по отраслям)</p>
+        </div>
+
+        <div class="resume__work">
+          <h3 class="resume__item-name">Опыт работы <br><i>13 лет 5 месяцев</i></h3>
+
+          <p class="resume__work"><b><a href="http://www.smithartman.ru">Смит энд Хартман</a></b><br><i>Полиграфия, издательская деятельность</i></p>
+          <p class="resume__date">Июль 2007 &ndash; по настоящее время</p>
+          <p class="resume__info"><b>Руководитель отдела верстки, технолог послепечатной обработки</b></p>
+          <ul>
+            <li>дизайн, верстка и предпечатная подготовка изделий представительской полиграфии (годовые отчеты, календари, POS-материалы и пр.);</li>
+            <li>разработка технического задания и технологический контроль работы цеха пост-печатных процессов;</li>
+            <li>работу по сайту и социальным сетям компании, наполнение контентом, SEO-оптимизация, ведение блогов.</li>
+          </ul>
+
+          <p class="resume__work"><b><a href="http://www.ripol.ru">ООО "РИПОЛ Классик" (ООО "Прогресс РК")</a></b><br><i>Полиграфия, издательская деятельность</i></p>
+          <p class="resume__date">Август 2006 &ndash; июнь 2007</p>
+          <p class="resume__info"><b>Верстальщик, и. о. начальника отдела графики и верстки</b></p>
+          <ul>
+            <li>руководство отделом графики и верстки;</li>
+            <li>верстка изданий различной сложности;</li>
+            <li>дизайн макетов верстки;</li>
+            <li>системное администрирование.</li>
+          </ul>
+
+          <p class="resume__work"><b><a href="http://www.odb.tambov.gov.ru/">ГУЗ Тамбовская областная детская больница</a></b><br><i>Медицина</i></p>
+          <p class="resume__date">Август 2004 &ndash; июнь 2006</p>
+          <p class="resume__info"><b>Инженер АСУ</b></p>
+          <ul>
+            <li>создание локальной сети, системное администрирование;</li>
+            <li>внештатная удаленная работа верстальщиком и графиком (ООО "РИПОЛ Классик").</li>
+          </ul>
+        </div>
+
+        <div class="resume__language">
+          <h3 class="resume__item-name">Знание языков</h3>
+          <p class="resume__info"><b>Русский</b> &ndash; родной</p>
+          <p class="resume__info"><b>Русский</b> &ndash; читаю профессиональную литературу</p>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
