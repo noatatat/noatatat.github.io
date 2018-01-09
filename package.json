@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Портофлио Воробьев Владимир",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noatatat/noatatat.github.io.git"
+  },
+  "author": "Воробьев Владимир",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noatatat/noatatat.github.io/issues"
+  },
+  "homepage": "https://github.com/noatatat/noatatat.github.io#readme",
+  "devDependencies": {
+    "stylelint-config-htmlacademy": "^0.1.0"
+  }
+}
