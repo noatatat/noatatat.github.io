@@ -2,204 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a07f6b5-1a81-4c86-9db8-7f7c4a42c8f8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/contest.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/opensans.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/opensans.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/opensansbold.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/opensansbold.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/opensanslight.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/opensanslight.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/README" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-back-desktop@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-back-desktop@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-back-mobile@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-back-mobile@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-back-tablet@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-back-tablet@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-hit-45g.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-hit-tablet.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-hit.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-map-desktop@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-map-desktop@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-map-mobile@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-map-mobile@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-map-tablet@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-map-tablet@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-triangle-white-footer.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg-triangle-white.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/htmlacademy.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-editor-contrast.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-editor-crop.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-editor-diagram-fill.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-editor-fill.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-facebook.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-heart.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-mail.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-map-marker.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-menu-burger--pink.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-menu-burger.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-menu-cross--pink.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-menu-cross.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-no.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-phone.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-pink-point.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-quotes.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-review-arrow-left.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-review-arrow-right.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-timer.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-twitter.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-yes-big.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-yes.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icon-youtube.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-hand-desktop@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-hand-desktop@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-hand-desktop@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-hand-desktop@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-hand-mobile@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-hand-mobile@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-hand-mobile@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-hand-mobile@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-hand-tablet@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-hand-tablet@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-hand-tablet@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-hand-tablet@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-1-desktop@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-1-desktop@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-1-tablet@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-1-tablet@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-2-desktop@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-2-desktop@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-2-tablet@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-2-tablet@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-3-desktop@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-3-desktop@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-3-tablet@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-3-tablet@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-mobile@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-screen-mobile@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo-android.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo-apple.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo-htmlacademy.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo-microsoft.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo-pink-blue-desktop.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo-pink-blue-mobile.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo-pink-full.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo-pink-white-desktop.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo-pink-white-mobile-pink.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo-pink-white-mobile-transparent.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo-pink-white-mobile.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo-pink-white-tablet.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/panorama-desktop@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/panorama-desktop@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/panorama-desktop@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/panorama-desktop@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/panorama-mobile@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/panorama-mobile@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/panorama-mobile@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/panorama-mobile@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/panorama-tablet@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/panorama-tablet@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/panorama-tablet@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/panorama-tablet@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-car-desktop@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-car-desktop@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-car-desktop@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-car-desktop@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-car-mobile@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-car-mobile@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-car-mobile@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-car-mobile@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-car-tablet@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-car-tablet@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-car-tablet@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-car-tablet@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-drumset-desktop@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-drumset-desktop@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-drumset-desktop@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-drumset-desktop@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-drumset-mobile@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-drumset-mobile@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-drumset-mobile@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-drumset-mobile@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-drumset-tablet@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-drumset-tablet@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-drumset-tablet@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-drumset-tablet@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-fair-desktop@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-fair-desktop@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-fair-desktop@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-fair-desktop@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-fair-mobile@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-fair-mobile@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-fair-mobile@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-fair-mobile@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-fair-tablet@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-fair-tablet@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-fair-tablet@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-fair-tablet@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-pov-desktop@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-pov-desktop@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-pov-desktop@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-pov-desktop@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-pov-mobile@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-pov-mobile@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-pov-mobile@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-pov-mobile@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-pov-tablet@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-pov-tablet@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-pov-tablet@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-pov-tablet@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-road-desktop@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-road-desktop@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-road-desktop@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-road-desktop@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-road-mobile@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-road-mobile@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-road-mobile@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-road-mobile@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-road-tablet@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-road-tablet@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-road-tablet@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-road-tablet@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-window-desktop@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-window-desktop@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-window-desktop@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-window-desktop@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-window-mobile@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-window-mobile@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-window-mobile@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-window-mobile@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-window-tablet@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-window-tablet@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-window-tablet@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-window-tablet@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-wing-desktop@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-wing-desktop@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-wing-desktop@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-wing-desktop@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-wing-mobile@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-wing-mobile@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-wing-mobile@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-wing-mobile@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-wing-tablet@1x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-wing-tablet@1x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-wing-tablet@2x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/photo-wing-tablet@2x.webp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/shadow@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/shadow@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/sprite-editor.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/sprite-markets.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/sprite-socials.svg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/README" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/picturefill.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/svg4everybody.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/yandex-map.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/photo.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -216,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="168">
+              <caret line="8" column="75" lean-forward="false" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -307,12 +110,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515498366720</updated>
-      <workItem from="1515498368062" duration="1057000" />
+      <workItem from="1515498368062" duration="1288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1057000" />
+    <option name="totallyTimeSpent" value="1288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1288" height="1004" extended-state="6" />
@@ -350,8 +153,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="168">
+          <caret line="8" column="75" lean-forward="false" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
           <folding />
         </state>
       </provider>
