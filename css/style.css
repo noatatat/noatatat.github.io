@@ -149,6 +149,7 @@ h3 {
 }
 
 .project {
+  position: relative;
   width: 300px;
   flex: 0 0 auto;
 }
@@ -177,24 +178,13 @@ h3 {
 }
 
 .project__description,
-.project__info {
+.project__info,
+.project__copyright {
   font-size: 14px;
 }
 
-.project__description a {
-  color: #4d4d4d;
-  border-bottom: 1px dashed #4d4d4d;
-  text-decoration: none;
-}
-
-.project__description a:focus,
-.project__description a:hover {
-  color: #7fc4d7;
-  border-bottom: 1px dashed #7fc4d7;
-}
-
 .project__info {
-  margin: 10px 0;
+  margin-top: 10px;
 }
 
 .project__copyright {
@@ -234,6 +224,7 @@ h3 {
 .project__links a {
   display: inline-block;
   vertical-align: top;
+  margin-top: 10px;
   margin-right: 10px;
 }
 
@@ -252,4 +243,40 @@ h3 {
 .project__html-link:active svg,
 .project__github-link:active svg {
   fill: #7fc4d7;
+}
+
+.mouse-on {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  border-top: 10px solid #7fc4d7;
+  border-left: 10px solid #7fc4d7;
+}
+
+/*.mouse-on::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 10px;
+  background-color: #7fc4d7;
+}*/
+
+.mouse-on::after {
+  position: absolute;
+  content: "";
+  top: -10px;
+  left: -40px;
+  width: 0;
+  height: 0;
+  /*background-color: rgba(255, 255, 255, 0.9);*/
+  border: 20px solid transparent;
+  border-top-color: #7fc4d7;
+  border-right-color: #7fc4d7;
 }
