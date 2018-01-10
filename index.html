@@ -5,6 +5,7 @@
     <title>Портфолио</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
     <div class="wrapper">
@@ -14,31 +15,36 @@
       </header>
       <section class="summary">
         <img class="summary__image" src="img/portrait.jpg" width="300" height="400" align="Воробьев Владимир">
-        <h2 class="summary__name">Воробьев <span class="summary__surname">Владимир Александрович</span></h2>
-        <div class="summary__contacts">
-          <p class="contact__info"><a class="contact__link" href="tel:+79629805487">+7 962 980 5487</a></p>
-          <p class="contact__info"><a class="contact__link" href="mailto:v.vorobjev@mail.ru">v.vorobjev@mail.ru</a></p>
-          <p class="contact__info"><a href="https://hh.ru/resume/a7704e1bff045143560039ed1f466842304168">Резюме на hh</a></p>
-        </div>
-        <div class="summary__text">
-          <p>Родился 04.07.1981 года. Женат, двое детей.</p>
-          <p>Имею высшее техническое образование по специальности «Автоматизация химических процессов и производств».
-            Одиннадцать лет работаю в полиграфической фирме верстальщиком и технологом. В разное время работал системным
-            администратором, иллюстратором-графиком, делал flash-анимацию.</p>
-          <p>Последние полгода обучался web-разработке, успешно закончил три обучающих интенсива в HTML Академии (по
-            созданию простейших сайтов, адаптивной верстке и азам программирования на ES5). Имею огромное желание сменить
-            профессиональную область и развиваться дальше в области фронтэнда.</p>
+        <div class="summary__info-block">
+          <h2 class="summary__name">Воробьёв<br>
+            <span class="summary__name-surname">Владимир Александрович</span>
+          </h2>
+          <div class="summary__contact-block">
+            <p class="summary__contact"><a class="contact__link" href="tel:+79629805487">+7 962 980 5487</a></p>
+            <p class="summary__contact"><a class="contact__link" href="mailto:v.vorobjev@mail.ru">v.vorobjev@mail.ru</a></p>
+            <p class="summary__contact"><a href="https://hh.ru/resume/a7704e1bff045143560039ed1f466842304168">Резюме на hh</a></p>
+          </div>
+          <div class="summary__text">
+            <p>Родился 04.07.1981. 36 лет. Женат, двое детей.</p>
+            <p>Имею высшее техническое образование по специальности «Автоматизация химических процессов и производств».
+              Одиннадцать лет работаю в полиграфической фирме верстальщиком и технологом. В разное время работал системным
+              администратором, иллюстратором-графиком, делал flash-анимацию.</p>
+            <p>Последние полгода обучался web-разработке, успешно закончил три обучающих интенсива в HTML Академии (по
+              созданию простейших сайтов, адаптивной верстке и азам программирования на ES5). Имею огромное желание сменить
+              профессиональную область и развиваться дальше в области фронтэнда.</p>
+          </div>
         </div>
       </section>
 
       <section class="projects">
-        <p><b>Проекты, выполненные в ходе обучающих интенсивов в <a href="https://htmlacademy.ru/">HTML Academy</a>:</b></p>
-        <ul>
+        <h2>Проекты</h2>
+        <ul class="project-block">
           <li class="project">
-            <a href="sedona/index.html">
+            <a class="project__link" href="sedona/index.html">
               <img class="project__image" src="img/sedona.jpg" width="300" height="225" alt="Седона"><br>
-              Первый проект. <b>Седона</b> (Базовая верстка)
+              <b class="project__name">Седона</b>
             </a>
+            <p class="project__description">Проект выполненный в рамках интенсива «Базовый HTML и CSS» в <a href="https://htmlacademy.ru/">htmlacademy</a>.</p>
             <div class="project__info">
               <p>В ходе работы над этим проектом были получены следующие навыки:</p>
               <ul>
@@ -58,10 +64,11 @@
             </div>
           </li>
           <li class="project">
-            <a href="pink/index.html">
+            <a class="project__link" href="pink/index.html">
               <img class="project__image" src="img/pink.jpg" width="300" height="225" alt="Pink"><br>
-              Второй проект. <b>Pink</b> (Продвинутая верстка)
+              <b class="project__name">Pink</b>
             </a>
+            <p class="project__description">Проект выполненный в рамках интенсива «Базовый HTML и CSS» в <a href="https://htmlacademy.ru/">htmlacademy</a>.</p>
             <div class="project__info">
               <p>В ходе работы над этим проектом были получены следующие навыки:</p>
               <ul>
@@ -80,10 +87,13 @@
             </div>
           </li>
           <li class="project">
-            <a href="booking/index.html">
+            <a class="project__link" href="booking/index.html">
               <img class="project__image" src="img/booking.jpg" width="300" height="225" alt="Кексобукинг"><br>
-              Третий проект. <b>Кексобукинг</b>(Базовый JS)
+              <b class="project__name">Кексобукинг</b>
             </a>
+            <p class="project__description">Проект выполненный в рамках интенсива «Базовый HTML и CSS»
+              в <a href="https://htmlacademy.ru/">htmlacademy</a>.
+            </p>
             <div class="project__info">
               <p>В ходе работы над этим проектом были получены следующие навыки:</p>
               <ul>
