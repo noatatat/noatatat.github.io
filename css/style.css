@@ -231,6 +231,25 @@ h3 {
   left: -15px;
 }
 
-.project__links a:first-child {
-  width: ;
+.project__links a {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.project__html-link svg,
+.project__github-link svg {
+  fill: #4d4d4d;
+}
+
+.project__html-link:focus svg,
+.project__html-link:hover svg,
+.project__github-link:focus svg,
+.project__github-link:hover svg {
+  fill: #999999;
+}
+
+.project__html-link:active svg,
+.project__github-link:active svg {
+  fill: #7fc4d7;
 }
