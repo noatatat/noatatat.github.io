@@ -22,7 +22,7 @@ body {
   font-size: 16px;
   line-height: 1.2;
   color: #4d4d4d;
-  background: radial-gradient(ellipse at center, #e1bc2b, #3c3414);
+  background: linear-gradient(to bottom, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
 }
 
 ul,
@@ -38,8 +38,7 @@ h3 {
   box-sizing: border-box;
   width: 1200px;
   margin: 0 auto;
-  padding: 80px;
-  padding-top: 0;
+  padding: 50px 80px;
   background-color: #ffffff;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
@@ -98,27 +97,21 @@ h3 {
 .summary__contact {
   display: inline-block;
   margin-right: 10px;
-}
-
-.summary__contact a {
   color: white;
   text-decoration: none;
 }
 
-.summary__contact a:focus,
-.summary__contact a:hover {
+.summary__contact:focus,
+.summary__contact:hover {
   color: #4d4d4d;
-}
-
-.summary__contact:last-child {
-  margin: 0;
 }
 
 .summary__text p:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.projects::before {
+.projects::before,
+.contacts::before {
   position: absolute;
   content: "";
   left: 0;
@@ -129,7 +122,8 @@ h3 {
   background-repeat: no-repeat;
 }
 
-.projects h2 {
+.projects h2,
+.contacts h2 {
   position: relative;
   z-index: 1;
   width: 100%;
@@ -139,7 +133,8 @@ h3 {
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
-  text-shadow: 1px 1px 0 #999999, -1px -1px 0 #ffffff;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 1px #999999;
 }
 
 .project-block {
@@ -229,19 +224,27 @@ h3 {
 }
 
 .project__html-link svg,
-.project__github-link svg {
+.project__github-link svg,
+.contacts__github svg,
+.contacts__facebook svg {
   fill: #4d4d4d;
 }
 
 .project__html-link:focus svg,
 .project__html-link:hover svg,
 .project__github-link:focus svg,
-.project__github-link:hover svg {
+.project__github-link:hover svg,
+.contacts__github:focus svg,
+.contacts__github:hover svg,
+.contacts__facebook:focus svg,
+.contacts__facebook:hover svg {
   fill: #999999;
 }
 
 .project__html-link:active svg,
-.project__github-link:active svg {
+.project__github-link:active svg,
+.contacts__github:active svg,
+.contacts__facebook:active svg {
   fill: #7fc4d7;
 }
 
@@ -258,25 +261,97 @@ h3 {
   border-left: 10px solid #7fc4d7;
 }
 
-/*.mouse-on::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 300px;
-  height: 10px;
-  background-color: #7fc4d7;
-}*/
-
-.mouse-on::after {
+.mouse-on::before {
   position: absolute;
   content: "";
   top: -10px;
   left: -40px;
   width: 0;
   height: 0;
-  /*background-color: rgba(255, 255, 255, 0.9);*/
   border: 20px solid transparent;
   border-top-color: #7fc4d7;
   border-right-color: #7fc4d7;
+}
+
+.contacts__block {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.contacts__item {
+  width: 300px;
+  text-align: center;
+}
+
+.contacts__item h3 {
+  margin-bottom: 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.contacts__item:nth-child(2) h3 {
+  margin-bottom: 10px;
+}
+
+.contacts__item a {
+  display: inline-block;
+}
+
+.contacts__item a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.contacts__github,
+.contacts__facebook {
+  vertical-align: top;
+}
+
+.contacts__phone,
+.contacts__mail {
+  font-weight: normal;
+  font-size: 18px;
+  text-decoration: none;
+  color: #7fc4d7;
+}
+
+.contacts__phone:focus,
+.contacts__phone:hover,
+.contacts__mail:focus,
+.contacts__mail:hover {
+  color: #999999;
+}
+
+.contacts__hh {
+  width: 89px;
+  height: 50px;
+  background-image: url("../img/hh.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(0.8);
+}
+
+.contacts__sj {
+  margin-top: -10px;
+  width: 152px;
+  height: 40px;
+  background-image: url("../img/sj.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(0.8);
+}
+
+.contacts__hh:focus,
+.contacts__hh:hover,
+.contacts__sj:focus,
+.contacts__sj:hover {
+  opacity: 0.7;
+}
+
+.contacts__hh:active,
+.contacts__sj:active {
+  opacity: 1;
+  transform: scale(0.75);
 }
