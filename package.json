@@ -18,5 +18,9 @@
   "homepage": "https://github.com/noatatat/noatatat.github.io#readme",
   "devDependencies": {
     "stylelint-config-htmlacademy": "^0.1.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "stylelint": "^8.4.0"
   }
 }
