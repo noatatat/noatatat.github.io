@@ -250,14 +250,12 @@ h3 {
 }
 
 .project {
-  /*position: relative;*/
   width: 300px;
   flex: 0 0 auto;
 }
 
 .project__entry {
   display: block;
-  /*margin-top: 25px;*/
   text-decoration: none;
 }
 
@@ -283,10 +281,6 @@ h3 {
 .project__info,
 .project__copyright {
   font-size: 14px;
-}
-
-.project__info {
-  /*margin-top: 10px;*/
 }
 
 .project__copyright {
