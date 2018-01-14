@@ -4,9 +4,8 @@
   var bioPopup = document.querySelector('.bio');
   var infoBlock = document.querySelector('.summary__info-block');
   var closeButton = document.querySelector('.bio__close-button');
-  console.log(closeButton);
   bioPopup.classList.add('bio--popup');
-  hide(bioPopup);
+  window.utils.hide(bioPopup);
 
   var bioButton = document.createElement('button');
   bioButton.type = 'button';
@@ -15,27 +14,19 @@
   infoBlock.insertAdjacentElement('beforeend', bioButton);
 
   bioButton.addEventListener('click', function () {
-    show(bioPopup);
+    window.utils.show(bioPopup);
     closeButton.addEventListener('click', onCloseButtonPress);
     document.addEventListener('keydown', onPopupEscPress);
   });
 
-  function show(element) {
-    element.classList.remove('visually-hidden')
-  }
-
-  function hide(element) {
-    element.classList.add('visually-hidden')
-  }
-
   function onCloseButtonPress() {
-    hide(bioPopup);
+    window.utils.hide(bioPopup);
     closeButton.removeEventListener('click', onCloseButtonPress);
   }
 
   function onPopupEscPress(evt) {
     if (evt.keyCode === 27) {
-      hide(bioPopup);
+      window.utils.hide(bioPopup);
       document.removeEventListener('keydown', onPopupEscPress);
     }
   }
