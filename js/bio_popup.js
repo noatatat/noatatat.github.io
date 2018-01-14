@@ -17,6 +17,7 @@
   bioButton.addEventListener('click', function () {
     show(bioPopup);
     closeButton.addEventListener('click', onCloseButtonPress);
+    document.addEventListener('keydown', onPopupEscPress);
   });
 
   function show(element) {
@@ -30,5 +31,12 @@
   function onCloseButtonPress() {
     hide(bioPopup);
     closeButton.removeEventListener('click', onCloseButtonPress);
+  }
+
+  function onPopupEscPress(evt) {
+    if (evt.keyCode === 27) {
+      hide(bioPopup);
+      document.removeEventListener('keydown', onPopupEscPress);
+    }
   }
 })();
