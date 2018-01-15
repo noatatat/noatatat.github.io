@@ -27,14 +27,15 @@
 
     setTimeout(function () {
       window.utils.hide(infoPopup);
-      this.removeEventListener(onProjectMouseOut);
+      this.removeEventListener('mouseout', onProjectMouseOut);
     }, 3000);
 
     infoPopup.addEventListener('mouseout', onProjectMouseOut);
 
     function onProjectMouseOut() {
       window.utils.hide(this);
-      this.removeEventListener(onProjectMouseOut);
+      this.removeEventListener('mouseout', onProjectMouseOut);
+
     }
   }
 })();
