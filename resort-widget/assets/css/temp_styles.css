@@ -1,0 +1,57 @@
+body {
+  background: lightgrey;
+}
+
+h1 {
+  color: #e0e0e0;
+}
+
+.element-bg-img img {
+  opacity: 0.3;
+}
+
+.scrollbar,
+.activity_box {
+  background: transparent;
+}
+
+.temperatur,
+.village,
+.ele-strip,
+.teddy-text {
+  background: #f2f2f2;
+}
+
+.ele-strip ul li a {
+  color: grey;
+}
+
+.element-left,
+.element-right {
+  border: 1px solid #fdd260;
+  border-radius: 3px;
+  border-top-width: 3px;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+  background-color: #bbbbbb;
+}
+
+.teddy-follow li h3,
+.village h3 {
+  color: grey;
+}
+
+.element-bg-img {
+  width: 380px;
+  height: 228px;
+  background: grey;
+  /*border: 1px solid #fdd260;*/
+  /*border-radius: 3px;*/
+  /*border-top: 3px;*/
+}
+
+.element-bg-img img {
+  display: none;
+}
