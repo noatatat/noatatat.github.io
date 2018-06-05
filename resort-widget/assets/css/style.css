@@ -523,3 +523,7 @@ h1 {
     font-size: 12px;
 }
 }
+
+.transform {
+  transform: scale(1.2);
+}

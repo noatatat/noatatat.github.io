@@ -47,11 +47,5 @@ h1 {
   width: 380px;
   height: 228px;
   background: grey;
-  /*border: 1px solid #fdd260;*/
-  /*border-radius: 3px;*/
-  /*border-top: 3px;*/
 }
 
-.element-bg-img img {
-  display: none;
-}
