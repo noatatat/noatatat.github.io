@@ -361,6 +361,7 @@ h3 {
   border-top: 10px solid #7fc4d7;
   border-left: 10px solid #7fc4d7;
   z-index: 5;
+  pointer-events: none;
 }
 
 .mouse-on::before {
