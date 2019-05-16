@@ -115,6 +115,18 @@ h3 {
   margin-bottom: 10px;
 }
 
+.summary__text a,
+.bio__text a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.summary__text a: hover,
+.bio__text a:hover {
+    border-bottom: 1px dashed;
+    color: #7fc4d7;
+}
+
 .bio__header {
   margin-top: 30px;
   margin-bottom: 20px;
