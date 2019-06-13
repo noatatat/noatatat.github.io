@@ -30,10 +30,10 @@
       this.removeEventListener('mouseout', onProjectMouseOut);
     }, 3000);
 
-    infoPopup.addEventListener('mouseout', onProjectMouseOut);
+    this.addEventListener('mouseout', onProjectMouseOut);
 
     function onProjectMouseOut() {
-      window.utils.hide(this);
+      window.utils.hide(infoPopup);
       this.removeEventListener('mouseout', onProjectMouseOut);
 
     }
