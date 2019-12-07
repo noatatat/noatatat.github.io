@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<style>
+			.red {
+				color: blue;
+				// display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>	0	<= жми</h1>
+		<p>Прывет, меня зовут Роман Воробьёв.</p>
+		<p>Мне 11 лет.</p>
+		<p>Я живу в Москве.</p>
+		<p>Учусь в 5 классе школы 1524.</p>
+		<p>И занимаюсь спортивным туризмом.</p>
+ 	</body>
+	<script>
+		var header = document.querySelector('h1');
+		var texts = document.querySelectorAll('p');
+		header.addEventListener('click', function() {
+			[].forEach.call(texts, function(text) {
+				console.log(text);
+				console.dir(text);
+				text.classList.toggle('red');
+			});
+		});
+	</script>
+</html>
